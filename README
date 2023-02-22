@@ -1,10 +1,3 @@
-/**********************************************************
-* Assignment 2: Informed Search
-* CS 131
-* README, 2/21/23
-* John Eastman 
-*********************************************************/
-
 Summary:
     This is a C++ program that solves the pancake problem using informed search
 (A*) and uninformed search (UCS). The program is implemented in C++ and 
@@ -20,8 +13,10 @@ smallest pancake is on top. The only allowed operation is to insert a spatula at
 in the stack (except for below the plate) and flip all the pancakes above the spatula.
 
 Usage:
-    ./AstarPancakes -- Performs A* search for the pancake problem
-    ./UCSPancakes -- Performs the UCS search for the pancake problem
+    make AstarPancakes
+        ./AstarPancakes -- Performs A* search for the pancake problem
+    make UCSPancakes
+        ./UCSPancakes -- Performs the UCS search for the pancake problem
 
 Sources:
 
